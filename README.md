@@ -1,5 +1,7 @@
 # My Emacs Configuration File (Not tested yet)
 
+![Screenshot](https://raw.githubusercontent.com/fadavi/emacs/master/screenshot.png)
+
 **To Enable All Features:**
 ---------------------------
 

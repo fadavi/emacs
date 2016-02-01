@@ -75,6 +75,9 @@
 ; Disable Startup Message
 (setq inhibit-startup-message t)
 
+; Set cursor shape
+(setq-default cursor-type 'bar)
+
 ; Auto Pair Braces
 (electric-pair-mode 1)
 
@@ -89,7 +92,7 @@
 (setq linum-format "%3d")
 
 ; Highlight Current Line
-(global-hl-line-mode t)
+(global-hl-line-mode 1)
 
 ; Powerline
 ; !! REQUIRES: powerline
@@ -201,7 +204,7 @@
 (load-theme
 ;;; Pre-installed Themes (Emacs 24; Ubuntu 15.10)
   ;'adwaita
-  ;'deeper-blue
+  'deeper-blue
   ;'dichromacy
   ;'light-blue
   ;'manoj-dark
@@ -212,7 +215,7 @@
   ;'tsdh-light
   ;'wheatgrass
   ;'whiteboard
-  'wombat
+  ;'wombat
 
 ;;; Installable Themes
   ;'seti t
